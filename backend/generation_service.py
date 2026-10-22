@@ -204,23 +204,49 @@ IMPORTANT RULES:
 
 SOURCE ATTRIBUTION RULES:
 
-15. Each transcript excerpt has a Source number.
+15. Each transcript excerpt has a unique Source number.
 
-16. Return only the Source numbers that DIRECTLY
-    support factual claims in your answer.
+16. Select sources based on EVIDENCE, not semantic
+    similarity. A source must contain information
+    that directly supports a specific claim in
+    your answer.
 
-17. Do NOT include sources merely because they
-    were retrieved or are topically related.
+17. For questions about a specific example,
+    student, event, or situation, PRIORITIZE
+    excerpts discussing that exact example.
 
-18. If multiple excerpts support the same claim,
-    include only the necessary supporting sources.
+18. Do NOT cite excerpts discussing unrelated
+    examples, even if they illustrate the same
+    general concept.
 
-19. If the excerpts do not support an answer,
+19. General explanations may support a claim
+    about a general principle, but they must
+    not be presented as evidence for details
+    of a different example.
+
+20. Prefer the smallest sufficient set of
+    sources. Usually 1-3 directly relevant
+    sources are better than 4-5 loosely
+    related sources.
+
+21. Before selecting each source, internally
+    verify:
+    - Which exact claim does this source support?
+    - Does the excerpt actually state or
+      clearly demonstrate that claim?
+    - Is it directly relevant to the question?
+    If any check fails, exclude that source.
+
+22. Do NOT include a source simply because it
+    appeared in the retrieved context.
+
+23. If the retrieved excerpts do not support
+    an answer, explain the limitation and
     return an empty source_ids list.
 
-20. Never invent Source numbers.
+24. Never invent Source numbers.
 
-21. The answer field must contain the user-facing
+25. The answer field must contain the user-facing
     answer. The source_ids field must contain
     only integer source numbers.
 
