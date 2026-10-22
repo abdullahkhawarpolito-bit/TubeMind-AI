@@ -77,11 +77,11 @@ Answer + Selected Video References
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/youtube-transcript-rag.git
+https://github.com/abdullahkhawarpolito-bit/youtube-transcript-rag.git
 cd youtube-transcript-rag
 ```
 
-Replace `YOUR_USERNAME` with your GitHub username.
+
 
 ### 2. Backend Setup
 
