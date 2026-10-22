@@ -77,7 +77,7 @@ Answer + Selected Video References
 ### 1. Clone the Repository
 
 ```bash
-https://github.com/abdullahkhawarpolito-bit/youtube-transcript-rag.git
+https://github.com/abdullahkhawarpolito-bit/TubeMind-AI.git
 cd youtube-transcript-rag
 ```
 
