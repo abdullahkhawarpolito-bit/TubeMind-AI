@@ -1,4 +1,4 @@
-# TubeMind AI — Chat with YouTube Videos
+# TubeMind AI — Chat with YouTube Videos.
 
 TubeMind AI is a full-stack Retrieval-Augmented Generation (RAG) application that allows users to explore YouTube video content through natural-language conversations.
 
