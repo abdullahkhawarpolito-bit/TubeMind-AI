@@ -1,7 +1,7 @@
 
 from langchain_core.documents import Document
 
-ncndkn
+ncnd
 def create_transcript_chunks(
     segments: list[dict],
     max_chars: int = 1000,
